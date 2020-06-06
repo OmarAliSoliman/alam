@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <!-- start nav bar -->
+  <span class="side-nav-button" style="font-size:30px;cursor:pointer" onclick="openNav()">
+    <img src="./assets/images/Icon feather-menu.png" alt="">
+  </span>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#"><i class="fas fa-home"></i>الرئيسية</a>
+    <a href="#"><i class="fas fa-exclamation-circle"></i>من نحن</a>
+    <a href="#"><i class="fas fa-cog"></i>خدماتنا</a>
+    <a href="#"><i class="fas fa-users"></i>التوظيف</a>
+    <a href="#"><i class="fas fa-id-card"></i>اتصل بنا</a>
+  </div>
+
+  <!-- end nav bar -->
+
+  <!-- start bottom nav -->
+  <div id="bottom-nav">
+    <div class="social">
+      <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+      <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
+      <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+      <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+    </div>
+    <div class="form-group">
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>English</option>
+        <option>عربي</option>
+      </select>
+    </div>
+  </div>
+  <!-- end bottom nav -->
+
+  <!-- start searcg and whats -->
+  <div class="search-whatsapp responsive-place">
+    <i class="fas fa-search" onclick="openSearch()" style="color: #000;"></i><br />
+    <a href="#"><i class="fab fa-whatsapp" style="color: #000;"></i></a></i>
+  </div>
+  <!-- end searcg and whats -->
+
+
+  <!-- start search div -->
+  <div id="search-div">
+    <span onclick="closeSearch()" class="close-search"><i class="fas fa-times-circle"></i></span>
+    <div class="container">
+      <form action="">
+        <input class="form-control" type="text" placeholder="ابحث عما تريد">
+        <button class="btn" type="submit">بحث</button>
+      </form>
+    </div>
+  </div>
+  <!-- end search div -->
+
+  <!-- start service -->
+  <div class="service">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="name-of-service">
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="">
+          </div>
+          <h5 class="name">اسم الخدمة</h5>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-8">
+        <div class="container">
+          <div class="service-details text-center">
+            <h5 class="head">تفاصيل الخدمة</h5>
+            <h6 class="serv-name-here">اسم الخدمة هنا</h6>
+            <img src="./assets/images/service.png" alt="">
+            <div class="container">
+              <p class="service-pargraph">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
+                مولد النص العربى، حيث يمكنك
+                أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو
+                مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى
+                كثير
+                من الأحيان أن يطلع على صورة حقيقية لتصميم ا</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end service -->
+
+
+
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
