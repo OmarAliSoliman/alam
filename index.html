@@ -83,6 +83,7 @@
 
   <!-- start slider -->
   <div class="home-slider">
+    <div id="particles-js"></div>
     <div id="full-screen-slider" dir="ltr">
       <div class="slider-item" >
         <div class="background" style="background-image: url('./assets/images/home-slider-1.png');"></div>
@@ -96,7 +97,7 @@
           <div class="slider-item-caption">
             <p>
               متخصصون في عالم المقاولات
-              و البناء والهندسة<span>لاكثر من 40 عام</span>
+              و البناء والهندسة <span class="type-element type"></span>
             </p>
             <div class="clear"></div>
           </div>
@@ -114,7 +115,7 @@
           <div class="slider-item-caption">
             <p>
               متخصصون في عالم المقاولات
-              و البناء والهندسة<span>لاكثر من 40 عام</span>
+              و البناء والهندسة <span class="type-element type2"></span>
             </p>
             <div class="clear"></div>
           </div>
@@ -132,25 +133,7 @@
           <div class="slider-item-caption">
             <p>
               متخصصون في عالم المقاولات
-              و البناء والهندسة<span>لاكثر من 40 عام</span>
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-      </div>
-      <div class="slider-item" >
-        <div class="background" style="background-image: url('./assets/images/home-slider-1.png');"></div>
-                <div class="container">
-          <div class="slider-logo">
-            <img src="./assets/images/logo.png" alt="">
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="slider-item-caption">
-            <p>
-              متخصصون في عالم المقاولات
-              و البناء والهندسة<span>لاكثر من 40 عام</span>
+              و البناء والهندسة <span class="type-element type3"></span>
             </p>
             <div class="clear"></div>
           </div>
@@ -170,7 +153,45 @@
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/particles.js"></script>
+  <script src="./assets/js/typed.js"></script>
+  <!-- <script src="./assets/js/type-element.js"></script> -->
+  <script src="./assets/js/app.js"></script>
   <script src="./assets/js/main.js"></script>
+
+  <script>
+    $(document).ready(function () {
+  var typed = new Typed('.type', {
+    strings: [ 
+      "لاكثر من 40 عام",
+    ],
+    typeSpeed: 50,
+    backSpeed: 80,
+    loop: true,
+    showCursor: false,
+  });
+  
+  var typed1 = new Typed('.type2', {
+    strings: [ 
+      "نحن الافضل ف التاريخ",
+    ],
+    typeSpeed: 50,
+    backSpeed: 80,
+    loop: true,
+    showCursor: false,
+  });
+
+  var typed2 = new Typed('.type3', {
+    strings: [ 
+      "نحن نصنع افضل الانجازات",
+    ],
+    typeSpeed: 50,
+    backSpeed: 80,
+    loop: true,
+    showCursor: false,
+  });
+});
+  </script>
 </body>
 
 </html>

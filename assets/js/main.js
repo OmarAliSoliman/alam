@@ -3,8 +3,14 @@ $(document).ready(function(){
   $('#full-screen-slider').slick({
     arrows: false,
     dots: true,
+    // autoplay: true,
+    loop: true, 
+    infinite: true
   });
+
 })
+
+
 
 
 function openNav() {
